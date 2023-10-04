@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/boots/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header part -->
+    <header class="cont mt-5">
+      <div class="cont">
+        <nav class="navbar fixed-top mb-0 pb-0">
+          <div class="container header-top">
+            <div class="left">
+              <button
+                class="navbar-toggler text-white"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <input class="me-1" type="search" placeholder="Search" />
+              <button class="btn border-0" type="submit">
+                <i class="bx bx-search-alt-2" style="color: #ffffff"></i>
+              </button>
+            </div>
+
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Offcanvas
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <a class=" text-white bangla " href="#">বাংলা </a>
+          </div>
+        </nav>
+      </div>
+      <div class="header-bottom mt-0">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <ul class="d-flex">
+              <li><a href="#">tab</a></li>
+              <li><a href="#">tab</a></li>
+              <li><a href="#">tab</a></li>
+              <li><a href="#">tab</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header part end -->
+
+    <!-- top hero  -->
+    <section class="top-hero mt-5 cont px-1">
+      <div class="row">
+        <div class="col-md-8 top-hero-left px-5">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner w-96">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/bbweb_domain_eng.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/bfiu_webnotice_nov2022.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/fbfakenews_oct2022.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 top-hero-right">
+          <div class="card Card mb-3 pt-2" style="max-width: 500px">
+            <div class="row g-0">
+              <h6 class="card-h">HONORABLE GOVERNOR</h6>
+              <div class="col-md-4">
+                <img
+                  src="assets/img/abdurrouftalukder.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h6 class="card-title text-bold">MR. ABDUR ROUF TALUKDER</h6>
+                  <p class="card-text">
+                    <small>HONORABLE GOVERNOR OF BANGLADESH BANK</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary">more..</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top hero end -->
+
+    <!-- marquee  -->
+    <!-- marquee end -->
+
+    <!-- main hero  -->
+    <section class="cont mt-5 main-hero mb-2">
+      <div class="row">
+
+        <div class="col-md-9 main-hero-left">
+
+          <div class="row row-cols-1 row-cols-md-2 g-2 col_parant px-3">
+
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/news-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/chalkboard-solid-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/line-chart-regular-60.png"
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <!-- <img
+                    src="assets/img/news-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  /> -->
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/donate-heart-regular-60.png"
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/line-chart-down-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/bulb-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <!-- <img
+                    src="assets/img/news-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  /> -->
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <!-- <img
+                    src="assets/img/news-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  /> -->
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <!-- <img
+                    src="assets/img/news-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  /> -->
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/link-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-2 mb-0">
+              <div class="py-3 shadow each_col">
+                <div class="h_line ms-2 me-2"></div>
+                <h5 class="hero-card-h text-bold">MONETARY POLICY</h5>
+                <div class="card_flex d-flex px-3 py-2">
+                  <img
+                    src="assets/img/upload-regular-60.png "
+                    class="card-img-top me-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                  
+                    <p class="card-text ">
+                      <ul class="ps-0 c_text">
+                        <li><a href="#"> > MPS (July-December 2023)   </a></li>
+                        <li><a href="#"> > Monetary Policy </a></li>
+                        <li><a href="#"> > Banknotes & Coins</a></li>
+                        <li><a href="#"> > Repo Reverse Repo Auction</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- ---------rate list------- [This section hide for sum problems ]--> 
+          <div class="hr border-top pt-1 border-dark-subtle ">
+            <div class="rate_container border-dark-subtle border-top border-bottom mt-0">
+              <div class="row p-3">
+                <div class="col-md-4 rate_list">
+                  <h6 class="fw-bold mb-3">POLICY RATES</h6>
+                  <div class="d-flex">
+                    <ul class="ps-0 pe-3">
+                      <li>Policy Rate (Repo Rate)	</li>
+                      <li>SLF Rate	</li>
+                      <li>SDF Rate	</li>
+                      <li>Bank Rate</li>
+                    </ul>
+                    <ul class="ps-0">
+                      <li>6.50%</li>
+                      <li>8.50%</li>
+                      <li>4.50%</li>
+                      <li>4.00%</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-4 rate_list">
+                  <h6 class="fw-bold mb-3">RESERVE RATIOS</h6>
+                  <div class="d-flex">
+                    <ul class="ps-0 pe-3">
+                        <li><br></li>
+                      
+                      <li>Traditional Banking	</li>
+                      <li>SLF Rate	</li>
+                      <li>SDF Rate	</li>
+                      <li>Bank Rate</li>
+                      <li class="text-danger"><small><i>*Last update: 30.06.2019</i></small></li>
+                    </ul>
+                    <ul class="ps-0 pe-3">
+                      <li class="fw-bold">	SLR</li>
+                      <li>6.50%</li>
+                      <li>8.50%</li>
+                      <li>4.50%</li>
+                      <li>4.00%</li>
+                    </ul>
+                    <ul class="ps-0">
+                      <li class="fw-bold">CRR</li>
+                      <li>6.50%</li>
+                      <li>8.50%</li>
+                      <li>4.50%</li>
+                    
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-4 rate_list">
+                  <h6 class="fw-bold mb-3">INTER-BANK EXCHANGE RATE</h6>
+                  <div class="d-flex">
+                    <ul class="ps-0 pe-3">
+                      <li class="fw-bold">CURRENCY</li>
+                      <li>USD</li>
+                    </ul>
+                    <ul class="ps-0 pe-3">
+                      <li class="fw-bold">LOWEST</li>
+                      <li>110.5000</li>
+                    </ul>
+                    <ul class="ps-0">
+                      <li class="fw-bold ">HIGHEST</li>
+                      <li>110.5000</li>
+                    </ul>
+                    
+                  </div>
+                  <p class="text-danger"><small><i>*Last update: 3rd October, 2023</i></small></p>
+                  <p class="text-danger"><small><i>*[Source: BAFEDA]</i></small></p>
+                    <button class="main-hero-btn">READ MORE</button>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 main-hero-right   ps-2 pe-0 pt-3">
+          <div class="side-div itc-aler py-3 px-3">
+            <h5 class="text-danger">ICT SECURITY ALERT</h5>
+            <a href="#">ICT Security Advisories & Alerts</a>
+          </div>
+          <div class="side-div cipc py-3 px-3 mt-3">
+            <h5 class="text-danger">CUSTOMERS' INTEREST PROTECTION CENTER(CIPC)</h5>
+            <p class="fw-bold text-success">FOR ANY COMPLAINT</p>
+            <div class="text-center">
+              <h3 class="">Call:16236</h3>
+            <p class="text-primary">Email: bb.cipc@bb.org.bd</p>
+            <a href="#">Download Mobile App</a><br>
+            <a href="#">Submit Online</a><br>
+            <a href="#">View All -></a>
+            </div>
+          </div>
+          <div class="side-div  py-3 px-3 mt-3 ">
+            <div class="text-center">
+              <h5 class="text-danger">SIX MONTHS MOVING AVERAGE RATE OF TREASURY BILL(SMART)</h5>
+            <p>September, 2023 <br>(Applicable for October,2023)</p>
+            <h3>7.20</h3>
+            <a href="#" class="text-primary">Previous 6 months' SMART</a>
+            </div>
+            
+
+            <div class=" w-75 mx-auto  bdanger mt-4 mb-5"></div>
+
+            <h5 class="text-danger">CALL MONEY RATE</h5>
+            <p>04 October, 2023</p>
+            <p class="text-primary">Weighted Average Interest Rate</p>
+            <h3>6.52</h3>
+            <a href="#">View all -></a>
+            <br><br>
+              <h5 class="text-danger">UPCOMING AUCTIONS</h5>
+              <div class="action1 d-flex justify-content-between align-items-start border-top border-bottom  border-black pt-2 ">
+                <p class="fw-bold text-success"> BILL</p>
+                <p>October, 2023</p>
+                <button class="btn-orange px-2 py-0 bg-orange border-0">08</button>
+              </div>
+              <div class="action1 d-flex justify-content-between align-items-start border-top border-bottom  border-black pt-2 mt-2 mb-2">
+                <p class="fw-bold text-success"> BOND</p>
+                <p>October, 2023</p>
+                <button class="btn-orange px-2 py-0 bg-orange border-0">08</button>
+              </div>
+                <a href="#">View all -></a>
+            
+          </div>
+          <hr>
+          <div class="side-div itc-aler py-3 px-3 mt-3">
+            <h5 class="text-danger mb-3">EMERGENCY HOTLINE</h5>
+              <div class="action1  border-top border-bottom  border-black pt-2 pb-2 mt-2 mb-2">
+               <img src="assets/img/national-helpline.jpg" alt="">
+              </div>
+          </div>
+
+        </div>
+      
+
+      </div>
+      
+    </section>
+    <!-- main hero end -->
+
+    <footer class=" cont footer border-top border-success border-3   px-3">
+      <div class="footer-top row ps-4 py-4">
+        <div class="col-md-4 ">
+          <h5>CONTACT</h5>
+          <ul class="ps-0">
+            <li class="d-flex align-items-start">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdxJREFUSEu1lE9IVFEUxn9npiHGhf1zE0GkIUEIEqmE0dB0XwwFuhEEF23atHAhCK3atwpy4cqlgkEtBUHnjor/wsgEidoEBQq1ccSFCc44N94bZkh9793nwJzlm4/vd853zxmhziV19scOyDrXickAlJ6CtHsNCRvANFJ8R3phO6zJYMD0k0bOFyaA3hADg/Ce/eRzeqb++un8AVM9DTQcrAFtESNc48LuAzrWCyf1/oCcMw48i2hekb1F6WE7QKvbiHz1kj5ZSpe/5RzjAz8kEb9Baub3/7+dNplToxgZ9O0+HABGXuFkX4cDcs4P4GZNAFhC6ZQN4G5DsiqqdB30IMfjyqP0FRsgD1yqEbCD0k02wCegs7aIZBWVvV+/R4Y3KP0yHKBVJyLuFKfLtkWxeCvpGXdJqhV0aF+AO2c8tFmUztgPzVXMP+6gZNwp7H+GZUeDMW04uW/RAN61qhGQoUhTGMZw9As/bXCHn+8m2Lu8DKbLAtkkuX+P7o8HZwN4UT1sonRuGbjlCxF+IsVu0gt/gpqwZ7yYuUrxaAVD83ET84tiPEVmditsQjvAe49H1yC2CLSUzWSVWKEvrPMKNBqgGldiEsN38heH6f9wFGUBogOiuPlo6g74B2qqkBmRQyddAAAAAElFTkSuQmCC"/>
+              <p> Bangladesh Bank, Motijheel, Dhaka</p>
+            </li>
+            <li class="d-flex align-items-start">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdtJREFUSEvVlT9oE2EUwH/vaKu0oFV0sINbsQg6SOkgDk3uu4YoXRyKm+BisaKjBdFFURwcbUdxUTBbh/7h7rgaqouDIDgEFwXXLIpom1yeXNraXLxILmkRv/Hx3u/3vfu+752wx0v2mM8/EChCYM+iMsy+Hzc59/pbN13GO1jMH6Cv8hIhtwmVN5QHM0wVNjqVxAW+eQ+caoItUD50kalC2ImkWaAtIE+xvSu7IfgO9CeCVG5j3AdpJc0dfABOtoAsYnsXuhQ4L0AvJUBKWFVDZvVLt4Jp0PkmyDtUHYxfTguv38NYkWuOY/E5FpNwhGxQ6gT+pyCK+PYCyORvoOhdsv693RMEzig1fdsA/ImEo2SD6ALsrGLuGJXwMaorGP9Zqw0kzyLPPEG4tlOknwitCSbcj/VYMX+USqUIjGzl3Mf27iRJkgXB+H5qva9AxxqKojfyENUCIgXgdAyozGF71xFij7X1NA3Gj1DrWQNOpPj+z7Gql8msVrdr/j6uXXMQK9qtOm1Lok6MN9OeIMqKxrfv3EA0GhPJYyRuf4TtzbYv2M6sH+zGLZBpYCC5I3EpD+YbJ2/6P9py7jB91auonAXOAENbshLrvWOcX/raKE8vaPswNhP/f8EvnFSHGTl9Go4AAAAASUVORK5CYII="/>
+              <p> Phone: +880-255665001-6</p>
+            </li>
+            <li class="d-flex align-items-start">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXlJREFUSEvtlc8rgwEYxz+P5sfBDlZKyk0p/gTU5n2XxVVykFpR5KCcHZWbchBFKTlIrjTtfW2FP4FyVlopDnMwlkd7N5vN3m2sXeQ9Pj++n+f9Pm/PKzT4kQbr85cAljGByCrQV6dtt6iuYNrHGZ2CRbZ5DfTXKf7ZfoNhDZQCNJfdAhZ+CSr0GpYz/Nc3yAIyCcsIIbIHdNUISqAaxrQj2GZBpyygKe0lEH/mYryD19Q2MFkFckRL6zzDJ0/E/O28e5L5QcsClDuUGYJW3Cm0jClENgFfCegR1UVM+9CJR00/wj5CT2VAXkV3aX1ZZugqSczfhXr2UEJOWogg6TCBeILLQS+ptnWQ2aIBXHdQPOY9InOMRE+dsB2cz04XzVgH58ExVHeA7m821gjI9ekBb54lQmePTiAy6qM5vQEy7bqfnwEcmQckZ4PqLtBZcfm/ANT4xebK/gFV/SpjUYOPXfZcrwG9VaerXOByrutUdWv/S7/MBln0ARd/hxmQVSe6AAAAAElFTkSuQmCC"/>
+              <p>E-mail: webmaster@bb.org.bd</p>
+            </li>
+            <li class="border-top border-bottom pb-1 border-dark-subtle"><a class="fw-bold" href="#">Contact for other purposes</a></li>
+          </ul>
+        
+            
+        
+        </div>
+        <div class="col-md-4">
+          <h5>USEFUL LINKS</h5>
+          <ul class="ps-0">
+            <li><a href="#"> > Payment Systems </a></li>
+            <li><a href="#"> > Regulations And Guidelines</a></li>
+            <li><a href="#"> > Currency Museum</a></li>
+            <li><a href="#"> > SAARC Finance</a></li>
+            <li><a href="#"> > Financial Literacy</a></li>
+            <li><a href="#"> > National ICT Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>STAY CONNECTED</h5>
+          <a href="#"><i class='bx bxl-facebook-circle' style='color:#054588'  ></i></a>
+          <a href="#"><i class='bx bxl-twitter 'style='color:#054588'></i></a>
+          <a href="#"><i class='bx bxl-youtube' style='color:#054588' ></i></a>
+        </div>
+
+      </div>
+      <div class="footer-menu mt-4 border-top border-bottom pb-1 border-dark-subtle   text-center">
+      <div class="py-1">
+          <a href="# " >Home</a>
+        <a href="# ">Sitemap</a>
+        <a href="# ">Feedback</a>
+      </div>
+      </div>
+      <p class="mt-3"> <span class="fw-bold"> Disclaimer:</span> While every effort is made to ensure accuracy of the information in this website, Bangladesh Bank assumes no responsibility for any damages or losses to users resulting from any error/omission/inadvertent alteration in information provided by this 'Not allow copyright @MAS' website.</p>
+
+    </footer>
+
+    <script src="assets/boots/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background: url(assets/img/download.jpg) center no-repeat;
+  height: 12.5rem;
+}
+.header-top {
+  background: #006666 !important;
+}
+
+.left input {
+  border-bottom: 1px solid rgb(237, 237, 237);
+  outline-style: none;
+  background-color: transparent;
+  color: white;
+}
+.header-bottom {
+  position: relative;
+  top: 75%;
+  right: 2%;
+}
+.top-hero {
+  height: 15.5rem;
+  border: 10px solid rgb(238, 238, 238);
+  border-bottom: none;
+  width: 83%;
+}
+.top-hero-right {
+  border: 6px solid rgb(238, 238, 238);
+  background: #f3f3f3 !important;
+}
+.Card {
+  background: transparent !important;
+  border: none !important;
+}
+.Card h6 {
+  font-weight: bold;
+}
+.card-h {
+  background: #00b16a;
+  padding: 4px !important;
+  padding-left: 6px !important;
+  color: white;
+}
+.main-hero {
+  width: 80% !important;
+}
+.main-hero-left img {
+  width: 60px;
+  height: 60px;
+}
+.card_flex {
+  display: flex !important;
+  align-items: center;
+}
+
+/* .card_flex img {
+  align-items: center !important;
+  justify-content: center;
+} */
+.hero-card-h {
+  display: inline-block;
+}
+.h_line {
+  display: inline-block;
+  width: 4px;
+  height: 22px;
+  background: #00b16a;
+  border-radius: 5px;
+}
+.c_text li a {
+  text-decoration: none !important;
+  color: #054588 !important;
+}
+.col:nth-child(odd) .each_col {
+  border-top: 5px solid #00b16a !important;
+  border-radius: 5px;
+}
+
+.col:nth-child(even) .each_col {
+  border-top: 5px solid #c61a00 !important;
+  border-radius: 5px;
+}
+.rate_container {
+  background: #eeeeee;
+}
+.main-hero-btn {
+  background: #006666;
+  border: none;
+  padding: 5px 14px;
+  color: white;
+  font-weight: bold;
+}
+.rate_list h6 {
+  color: #505050;
+  font-size: 17px;
+}
+.rate_list ul li {
+  color: #383838;
+  font-size: 14px;
+}
+.side-div {
+  background: #f7f5f3 !important;
+}
+.main-hero-right {
+  border-top: 6px solid rgb(100, 100, 100) !important;
+  border-left: 1.8px solid rgb(190, 190, 190) !important;
+}
+.bdanger {
+  border: 1px solid red;
+}
+.main-hero-right a {
+  text-decoration: none;
+  color: #054588;
+  letter-spacing: -1px;
+}
+.main-hero-right h5 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.bg-orange {
+  background: #fa6742;
+  color: white;
+  font-weight: bold;
+}
+.bangla {
+  text-decoration: none !important;
+  font-size: 13px !important;
+  padding-right: 20px;
+}
+.footer {
+  background: #f7f5f3;
+  height: 24rem;
+  width: 82%;
+}
+.footer-top ul li a {
+  text-decoration: none;
+  color: #054588;
+  font-size: 15px;
+}
+.footer-top a i {
+  font-size: 24px;
+  margin: 0 10px;
+}
+.footer-menu div {
+  margin: 0 auto;
+}
+.footer-menu a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: #054588;
+  border-right: 1px solid rgb(196, 196, 196);
+  padding: 0 15px;
+}
